@@ -91,9 +91,9 @@ class Table:
 
 table1 = Table('cities', cities)
 table2 = Table('countries', countries)
-table3 = Table('titanic',titanic)
-table4 = Table('players',players)
-table5 = Table('teams',teams)
+table3 = Table('titanic', titanic)
+table4 = Table('players', players)
+table5 = Table('teams', teams)
 
 my_DB = DB()
 my_DB.insert(table1)
